@@ -48,17 +48,17 @@ NUDT-KBT2019 is resampled from "A dataset for infrared detection and tracking of
             └── train.txt
             └── val.txt
 ```
-## Performance Comparison
-
+## Performance
+To mitigate randomness, each model is retrained three times per dataset depend on three random division, and the final results are derived from the mean performance.
 | Methods | BUS IoU | F1 | NUDT-KBT IoU | F1 |
 |---------|-----------|----|-----------|----|
 | **SRS** | **88.29** | **93.44** | **86.34** | **92.62** |
 
 ## Quick Evaluation
-Please download the BUS, NUDT-KBT2019 dataset. Run
+Please download the BUS, NUDT-KBT2019 dataset. To quickly evaluation, we give the division of middle performance.
 
 ```python
-python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/bus  --train_file_dir bus_train3.txt --val_file_dir bus_val3.txt --batch_size 1 --Dataset BUS
+python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/bus  --train_file_dir bus_train.txt --val_file_dir bus_val3.txt --batch_size 1 --Dataset BUS
 ```
 ```python
 python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019

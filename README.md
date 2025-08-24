@@ -23,8 +23,7 @@ We refer to the segmentation network integrated with DPConv generated from recon
 Please put the [BUS]([https://www.kaggle.com/aryashah2k/breast-ultrasound-images-dataset](http://cvprip.cs.usu.edu/busbench/)) dataset and NUDT-KBT2019([]) or your own dataset as the following architecture. 
 NUDT-KBT2019 is resampled from "A dataset for infrared detection and tracking of dim-small aircraft targets under ground / air background"([http://www.csdata.org/p/387/])
 ```
-└── dataset
-    ├── SRS_DataSet
+    ├── DataSet
         ├── bus
             ├── images
             |   ├── benign (10).png
@@ -58,10 +57,10 @@ To mitigate randomness, each model is retrained three times per dataset depend o
 Please download the BUS, NUDT-KBT2019 dataset. To quickly evaluation, we give the division of middle performance.
 
 ```python
-python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/bus  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset BUS
+python evaluation.py --base_dir ******/DataSet/bus  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset BUS
 ```
 ```python
-python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019
+python evaluation.py --base_dir ******/DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019
 ```
 
 

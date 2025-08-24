@@ -4,8 +4,7 @@ SRS: Siamese Reconstruction-Segmentation Network based on Dynamic-Parameter Conv
 Official pytorch code base for TIP 2025 "SRS: Siamese Reconstruction-Segmentation Network based on Dynamic-Parameter Convolution"
 
 **News** 🥰:
-- <font color="#dd0000" size="4">**CMUNeXt is accepted by TIP !**</font> 🎉
-- <font color="#dd0000" size="4">**Paper is rejected by ECCV **</font> 😭😭😭🥹🥹🥹
+- <font color="#dd0000" size="4">**SRSNet is accepted by TIP !**</font> 🎉
 - <font color="#dd0000" size="4">**Paper is rejected By TCSVT **</font> 😭😭😭🥹🥹🥹
 - <font color="#dd0000" size="4">**Paper is rejected by CVPR **</font> 😭😭😭🥹🥹🥹
 

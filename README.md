@@ -25,7 +25,7 @@ NUDT-KBT2019 is resampled from "A dataset for infrared detection and tracking of
 ```
 └── dataset
     ├── SRS_DataSet
-        ├── busi
+        ├── bus
             ├── images
             |   ├── benign (10).png
             │   ├── malignant (17).png
@@ -58,7 +58,7 @@ To mitigate randomness, each model is retrained three times per dataset depend o
 Please download the BUS, NUDT-KBT2019 dataset. To quickly evaluation, we give the division of middle performance.
 
 ```python
-python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/bus  --train_file_dir bus_train.txt --val_file_dir bus_val3.txt --batch_size 1 --Dataset BUS
+python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/bus  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset BUS
 ```
 ```python
 python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019

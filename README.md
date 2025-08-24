@@ -55,12 +55,20 @@ To mitigate randomness, each model is retrained three times per dataset depend o
 
 ## Quick Evaluation
 Please download the BUS, NUDT-KBT2019 dataset. To quickly evaluation, we give the division of middle performance.
-
+The Weight can be download from baidu disk: BUS([https://pan.baidu.com/s/1NYlrboVL_GaouB8lKiljNA](提取码:r3d1)), NUDT-KBT2019([https://pan.baidu.com/s/1kTps0GLIiDuRv5pun4Jw8g](提取码:beip))
 ```python
 python evaluation.py --base_dir ******/DataSet/bus  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset BUS
 ```
 ```python
 python evaluation.py --base_dir ******/DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019
+```
+## Train
+You can directly train the reconstruction network and segmentation network:
+```python
+python train Iris.py
+```
+```python
+python train_Medicine.py
 ```
 
 

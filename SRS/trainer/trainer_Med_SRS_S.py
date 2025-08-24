@@ -75,8 +75,7 @@ def getDataloader():
 
 def get_model(args):
     model_R = SRS_R(bs=args.batch_size).cuda(args.gpu)
-    model_R.load_state_dict(torch.load(os.path.join('权重文件/alldata_SRS_R.pth')))
-#    model_R.load_state_dict(torch.load(os.path.join('权重文件/'+args.Dataset+'_SRS_R'+'.pth')))
+    model_R.load_state_dict(torch.load(os.path.join('权重文件/'+args.Dataset+'_SRS_R'+'.pth')))
     print("已经加载预训练权重")
     model_S = SRS_S(bs=args.batch_size).cuda(args.gpu)
     return model_R,model_S
@@ -163,3 +162,4 @@ def trainer_SRS_S():
 
 if __name__ == "__main__":
     train(args)
+

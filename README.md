@@ -20,7 +20,7 @@ We refer to the segmentation network integrated with DPConv generated from recon
 
 
 ### Datasets
-Please put the [BUS]([https://www.kaggle.com/aryashah2k/breast-ultrasound-images-dataset](http://cvprip.cs.usu.edu/busbench/)) dataset and NUDT-KBT2019([]) or your own dataset as the following architecture. 
+Please put the [BUS]([https://www.kaggle.com/aryashah2k/breast-ultrasound-images-dataset](http://cvprip.cs.usu.edu/busbench/)) dataset and NUDT-KBT2019([https://pan.baidu.com/s/1qGVszDUMYamk8VBsyF1lTQ](提取码:jaq9)) or your own dataset as the following architecture. 
 NUDT-KBT2019 is resampled from "A dataset for infrared detection and tracking of dim-small aircraft targets under ground / air background"([http://www.csdata.org/p/387/])
 ```
     ├── DataSet
@@ -70,6 +70,8 @@ python train Iris.py
 ```python
 python train_Medicine.py
 ```
+## Citation
 
+If you use our code, please cite our paper:
 
 

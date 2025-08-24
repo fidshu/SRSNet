@@ -16,7 +16,7 @@ Moreover, we observe that DPConv, built upon deep features derived from reconstr
 We refer to the segmentation network integrated with DPConv generated from reconstruction network as the siamese reconstruction-segmentation network (SRS). We conduct extensive experiments on seven datasets including five medical datasets and two infrared datasets, and the experimental results demonstrate that our method can show superior performance over several recently proposed methods. Furthermore, the zero-shot segmentation under unseen modality demonstrates the generalization of DPConv.
 
 ### SRSNet:
-![framework](SRS/imgs/structure.pdf)
+![framework](SRS/imgs/structure.png)
 
 
 ### Datasets

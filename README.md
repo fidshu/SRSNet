@@ -16,5 +16,53 @@ Moreover, we observe that DPConv, built upon deep features derived from reconstr
 We refer to the segmentation network integrated with DPConv generated from reconstruction network as the siamese reconstruction-segmentation network (SRS). We conduct extensive experiments on seven datasets including five medical datasets and two infrared datasets, and the experimental results demonstrate that our method can show superior performance over several recently proposed methods. Furthermore, the zero-shot segmentation under unseen modality demonstrates the generalization of DPConv.
 
 ### SRSNet:
+![framework](SRS/imgs/structure.pdf)
+
+
+### Datasets
+Please put the [BUS]([https://www.kaggle.com/aryashah2k/breast-ultrasound-images-dataset](http://cvprip.cs.usu.edu/busbench/)) dataset and NUDT-KBT2019([]) or your own dataset as the following architecture. 
+NUDT-KBT2019 is resampled from "A dataset for infrared detection and tracking of dim-small aircraft targets under ground / air background"([http://www.csdata.org/p/387/])
+```
+└── dataset
+    ├── SRS_DataSet
+        ├── busi
+            ├── images
+            |   ├── benign (10).png
+            │   ├── malignant (17).png
+            │   ├── ...
+            |
+            └── masks
+                ├── benign (10).png
+                ├── malignant (17).png
+                ├── ...
+            └── train.txt
+            └── val.txt
+        ├── KBT2019
+            ├── images
+            |   ├── 0.bmp
+            │   ├── ...
+            |
+            └── masks
+                ├── 0.bmp
+                ├── ...
+            └── train.txt
+            └── val.txt
+```
+## Performance Comparison
+
+| Methods | BUS IoU | F1 | NUDT-KBT IoU | F1 |
+|---------|-----------|----|-----------|----|
+| **SRS** | **88.29** | **93.44** | **86.34** | **92.62** |
+
+## Quick Evaluation
+Please download the BUS, NUDT-KBT2019 dataset. Run
+
+```python
+python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/bus  --train_file_dir bus_train3.txt --val_file_dir bus_val3.txt --batch_size 1 --Dataset BUS
+```
+```python
+python evaluation.py --base_dir /mnt/sda/dataset/SRS_DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019
+```
+
 
 

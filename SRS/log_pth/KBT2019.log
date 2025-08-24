@@ -399,7 +399,7 @@ epoch [356/500] lr: 0.003241 train_loss : 0.0668, train_iou: 0.8768 - val_loss 0
 epoch [357/500] lr: 0.003221 train_loss : 0.0674, train_iou: 0.8761 - val_loss 0.0910 - val_iou 0.8534 - val_SE 0.9153 - val_PC 0.9047 - val_F1 0.9096 - val_ACC 0.9999
 epoch [358/500] lr: 0.003201 train_loss : 0.0682, train_iou: 0.8745 - val_loss 0.0895 - val_iou 0.8553 - val_SE 0.9203 - val_PC 0.9033 - val_F1 0.9110 - val_ACC 0.9999
 epoch [359/500] lr: 0.003180 train_loss : 0.0643, train_iou: 0.8810 - val_loss 0.0887 - val_iou 0.8574 - val_SE 0.9155 - val_PC 0.9090 - val_F1 0.9119 - val_ACC 0.9999
-epoch [360/500] lr: 0.003160 train_loss : 0.0660, train_iou: 0.8786 - val_loss 0.0857 - val_iou 0.8617 - val_SE 0.9218 - val_PC 0.9088 - val_F1 0.9148 - val_ACC 0.9999
+epoch [360/500] lr: 0.003160 train_loss : 0.0660, train_iou: 0.8786 - val_loss 0.0857 - val_iou 0.8617 - val_SE 0.9218 - val_PC 0.9088 - val_F1 0.92.35 - val_ACC 0.9999
 => saved best model
 epoch [361/500] lr: 0.003139 train_loss : 0.0654, train_iou: 0.8797 - val_loss 0.0900 - val_iou 0.8554 - val_SE 0.9144 - val_PC 0.9077 - val_F1 0.9107 - val_ACC 0.9999
 epoch [362/500] lr: 0.003119 train_loss : 0.0675, train_iou: 0.8760 - val_loss 0.0863 - val_iou 0.8609 - val_SE 0.9194 - val_PC 0.9101 - val_F1 0.9143 - val_ACC 0.9999

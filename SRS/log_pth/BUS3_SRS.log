@@ -1,0 +1,334 @@
+total 393  train samples
+total 169  val samples
+train num:393, val num:169
+hello SRS_R 
+已经加载预训练权重
+hello SRS_S 
+train file dir:bus_train3.txt val file dir:bus_val3.txt
+25 iterations per epoch
+epoch [0/300] lr: 0.009971 train_loss : 1.1266, train_iou: 0.2321 - val_loss 1.0944 - val_iou 0.0000 - val_SE 0.0000 - val_PC 0.0000 - val_F1 0.0000 - val_ACC 0.8770
+=> saved best model
+epoch [1/300] lr: 0.009941 train_loss : 0.9420, train_iou: 0.3326 - val_loss 1.0620 - val_iou 0.0000 - val_SE 0.0000 - val_PC 0.0000 - val_F1 0.0000 - val_ACC 0.8770
+epoch [2/300] lr: 0.009911 train_loss : 0.7090, train_iou: 0.4789 - val_loss 0.9119 - val_iou 0.0458 - val_SE 0.0487 - val_PC 0.4392 - val_F1 0.0772 - val_ACC 0.8792
+=> saved best model
+epoch [3/300] lr: 0.009881 train_loss : 0.5147, train_iou: 0.5594 - val_loss 0.5085 - val_iou 0.5128 - val_SE 0.5963 - val_PC 0.7766 - val_F1 0.6328 - val_ACC 0.9326
+=> saved best model
+epoch [4/300] lr: 0.009851 train_loss : 0.3961, train_iou: 0.6229 - val_loss 0.8216 - val_iou 0.2673 - val_SE 0.2737 - val_PC 0.7551 - val_F1 0.3585 - val_ACC 0.9069
+epoch [5/300] lr: 0.009821 train_loss : 0.3357, train_iou: 0.6584 - val_loss 0.3731 - val_iou 0.6336 - val_SE 0.8019 - val_PC 0.7737 - val_F1 0.7626 - val_ACC 0.9450
+=> saved best model
+epoch [6/300] lr: 0.009791 train_loss : 0.3170, train_iou: 0.6661 - val_loss 0.2770 - val_iou 0.7101 - val_SE 0.8401 - val_PC 0.8424 - val_F1 0.8189 - val_ACC 0.9577
+=> saved best model
+epoch [7/300] lr: 0.009761 train_loss : 0.2470, train_iou: 0.7315 - val_loss 0.3157 - val_iou 0.6942 - val_SE 0.7315 - val_PC 0.9239 - val_F1 0.7945 - val_ACC 0.9580
+epoch [8/300] lr: 0.009731 train_loss : 0.2285, train_iou: 0.7451 - val_loss 0.2139 - val_iou 0.7689 - val_SE 0.8929 - val_PC 0.8585 - val_F1 0.8613 - val_ACC 0.9665
+=> saved best model
+epoch [9/300] lr: 0.009701 train_loss : 0.2203, train_iou: 0.7505 - val_loss 0.2805 - val_iou 0.7252 - val_SE 0.7781 - val_PC 0.9113 - val_F1 0.8222 - val_ACC 0.9594
+epoch [10/300] lr: 0.009671 train_loss : 0.1893, train_iou: 0.7851 - val_loss 0.1958 - val_iou 0.7890 - val_SE 0.8414 - val_PC 0.9332 - val_F1 0.8750 - val_ACC 0.9697
+=> saved best model
+epoch [11/300] lr: 0.009640 train_loss : 0.1806, train_iou: 0.7971 - val_loss 0.1590 - val_iou 0.8215 - val_SE 0.8875 - val_PC 0.9223 - val_F1 0.8967 - val_ACC 0.9759
+=> saved best model
+epoch [12/300] lr: 0.009610 train_loss : 0.1720, train_iou: 0.8018 - val_loss 0.1910 - val_iou 0.7944 - val_SE 0.8406 - val_PC 0.9389 - val_F1 0.8776 - val_ACC 0.9707
+epoch [13/300] lr: 0.009580 train_loss : 0.1610, train_iou: 0.8120 - val_loss 0.1526 - val_iou 0.8247 - val_SE 0.9282 - val_PC 0.8872 - val_F1 0.8991 - val_ACC 0.9763
+=> saved best model
+epoch [14/300] lr: 0.009550 train_loss : 0.1547, train_iou: 0.8187 - val_loss 0.1837 - val_iou 0.8000 - val_SE 0.8483 - val_PC 0.9413 - val_F1 0.8817 - val_ACC 0.9720
+epoch [15/300] lr: 0.009520 train_loss : 0.1468, train_iou: 0.8270 - val_loss 0.1475 - val_iou 0.8308 - val_SE 0.9189 - val_PC 0.9030 - val_F1 0.9031 - val_ACC 0.9768
+=> saved best model
+epoch [16/300] lr: 0.009490 train_loss : 0.1443, train_iou: 0.8335 - val_loss 0.1962 - val_iou 0.7930 - val_SE 0.8456 - val_PC 0.9274 - val_F1 0.8751 - val_ACC 0.9705
+epoch [17/300] lr: 0.009460 train_loss : 0.1517, train_iou: 0.8252 - val_loss 0.1723 - val_iou 0.8074 - val_SE 0.8887 - val_PC 0.9063 - val_F1 0.8880 - val_ACC 0.9727
+epoch [18/300] lr: 0.009429 train_loss : 0.1551, train_iou: 0.8127 - val_loss 0.1396 - val_iou 0.8389 - val_SE 0.9210 - val_PC 0.9090 - val_F1 0.9085 - val_ACC 0.9781
+=> saved best model
+epoch [19/300] lr: 0.009399 train_loss : 0.1450, train_iou: 0.8303 - val_loss 0.1343 - val_iou 0.8478 - val_SE 0.9184 - val_PC 0.9222 - val_F1 0.9137 - val_ACC 0.9791
+=> saved best model
+epoch [20/300] lr: 0.009369 train_loss : 0.1372, train_iou: 0.8369 - val_loss 0.1554 - val_iou 0.8212 - val_SE 0.8906 - val_PC 0.9193 - val_F1 0.8971 - val_ACC 0.9761
+epoch [21/300] lr: 0.009339 train_loss : 0.1367, train_iou: 0.8357 - val_loss 0.1537 - val_iou 0.8262 - val_SE 0.8816 - val_PC 0.9351 - val_F1 0.9001 - val_ACC 0.9765
+epoch [22/300] lr: 0.009308 train_loss : 0.1222, train_iou: 0.8554 - val_loss 0.1407 - val_iou 0.8396 - val_SE 0.8956 - val_PC 0.9356 - val_F1 0.9082 - val_ACC 0.9784
+epoch [23/300] lr: 0.009278 train_loss : 0.1237, train_iou: 0.8516 - val_loss 0.1401 - val_iou 0.8352 - val_SE 0.9234 - val_PC 0.9023 - val_F1 0.9072 - val_ACC 0.9779
+epoch [24/300] lr: 0.009248 train_loss : 0.1228, train_iou: 0.8571 - val_loss 0.1297 - val_iou 0.8490 - val_SE 0.9027 - val_PC 0.9385 - val_F1 0.9151 - val_ACC 0.9798
+=> saved best model
+epoch [25/300] lr: 0.009218 train_loss : 0.1143, train_iou: 0.8649 - val_loss 0.1351 - val_iou 0.8429 - val_SE 0.9170 - val_PC 0.9172 - val_F1 0.9103 - val_ACC 0.9786
+epoch [26/300] lr: 0.009187 train_loss : 0.1127, train_iou: 0.8623 - val_loss 0.1377 - val_iou 0.8438 - val_SE 0.8894 - val_PC 0.9465 - val_F1 0.9111 - val_ACC 0.9784
+epoch [27/300] lr: 0.009157 train_loss : 0.1210, train_iou: 0.8549 - val_loss 0.1330 - val_iou 0.8460 - val_SE 0.9364 - val_PC 0.9025 - val_F1 0.9117 - val_ACC 0.9785
+epoch [28/300] lr: 0.009127 train_loss : 0.1215, train_iou: 0.8538 - val_loss 0.1324 - val_iou 0.8442 - val_SE 0.9223 - val_PC 0.9145 - val_F1 0.9115 - val_ACC 0.9788
+epoch [29/300] lr: 0.009097 train_loss : 0.1226, train_iou: 0.8503 - val_loss 0.1407 - val_iou 0.8403 - val_SE 0.8878 - val_PC 0.9446 - val_F1 0.9092 - val_ACC 0.9780
+epoch [30/300] lr: 0.009066 train_loss : 0.1166, train_iou: 0.8589 - val_loss 0.1297 - val_iou 0.8496 - val_SE 0.8932 - val_PC 0.9498 - val_F1 0.9149 - val_ACC 0.9794
+=> saved best model
+epoch [31/300] lr: 0.009036 train_loss : 0.1088, train_iou: 0.8694 - val_loss 0.1201 - val_iou 0.8572 - val_SE 0.9126 - val_PC 0.9384 - val_F1 0.9199 - val_ACC 0.9813
+=> saved best model
+epoch [32/300] lr: 0.009006 train_loss : 0.1177, train_iou: 0.8606 - val_loss 0.1290 - val_iou 0.8469 - val_SE 0.9351 - val_PC 0.9043 - val_F1 0.9137 - val_ACC 0.9796
+epoch [33/300] lr: 0.008975 train_loss : 0.1130, train_iou: 0.8625 - val_loss 0.1290 - val_iou 0.8503 - val_SE 0.8988 - val_PC 0.9445 - val_F1 0.9152 - val_ACC 0.9801
+epoch [34/300] lr: 0.008945 train_loss : 0.1036, train_iou: 0.8722 - val_loss 0.1262 - val_iou 0.8514 - val_SE 0.9178 - val_PC 0.9264 - val_F1 0.9158 - val_ACC 0.9805
+epoch [35/300] lr: 0.008914 train_loss : 0.0989, train_iou: 0.8794 - val_loss 0.1147 - val_iou 0.8620 - val_SE 0.9211 - val_PC 0.9343 - val_F1 0.9229 - val_ACC 0.9821
+=> saved best model
+epoch [36/300] lr: 0.008884 train_loss : 0.1056, train_iou: 0.8693 - val_loss 0.1351 - val_iou 0.8409 - val_SE 0.9276 - val_PC 0.9052 - val_F1 0.9094 - val_ACC 0.9783
+epoch [37/300] lr: 0.008854 train_loss : 0.1092, train_iou: 0.8663 - val_loss 0.1214 - val_iou 0.8538 - val_SE 0.9295 - val_PC 0.9171 - val_F1 0.9176 - val_ACC 0.9809
+epoch [38/300] lr: 0.008823 train_loss : 0.1123, train_iou: 0.8617 - val_loss 0.1298 - val_iou 0.8490 - val_SE 0.9029 - val_PC 0.9387 - val_F1 0.9145 - val_ACC 0.9794
+epoch [39/300] lr: 0.008793 train_loss : 0.1004, train_iou: 0.8780 - val_loss 0.1114 - val_iou 0.8643 - val_SE 0.9220 - val_PC 0.9356 - val_F1 0.9250 - val_ACC 0.9823
+=> saved best model
+epoch [40/300] lr: 0.008762 train_loss : 0.0982, train_iou: 0.8796 - val_loss 0.1179 - val_iou 0.8598 - val_SE 0.9298 - val_PC 0.9231 - val_F1 0.9211 - val_ACC 0.9810
+epoch [41/300] lr: 0.008732 train_loss : 0.1035, train_iou: 0.8705 - val_loss 0.1135 - val_iou 0.8625 - val_SE 0.9395 - val_PC 0.9167 - val_F1 0.9236 - val_ACC 0.9824
+epoch [42/300] lr: 0.008701 train_loss : 0.1001, train_iou: 0.8751 - val_loss 0.1202 - val_iou 0.8546 - val_SE 0.9334 - val_PC 0.9143 - val_F1 0.9187 - val_ACC 0.9810
+epoch [43/300] lr: 0.008671 train_loss : 0.0993, train_iou: 0.8769 - val_loss 0.1151 - val_iou 0.8646 - val_SE 0.9196 - val_PC 0.9383 - val_F1 0.9247 - val_ACC 0.9818
+=> saved best model
+epoch [44/300] lr: 0.008640 train_loss : 0.0945, train_iou: 0.8845 - val_loss 0.1065 - val_iou 0.8719 - val_SE 0.9249 - val_PC 0.9409 - val_F1 0.9291 - val_ACC 0.9836
+=> saved best model
+epoch [45/300] lr: 0.008610 train_loss : 0.0915, train_iou: 0.8882 - val_loss 0.1074 - val_iou 0.8692 - val_SE 0.9204 - val_PC 0.9427 - val_F1 0.9273 - val_ACC 0.9837
+epoch [46/300] lr: 0.008579 train_loss : 0.0931, train_iou: 0.8863 - val_loss 0.1200 - val_iou 0.8562 - val_SE 0.9344 - val_PC 0.9152 - val_F1 0.9189 - val_ACC 0.9808
+epoch [47/300] lr: 0.008549 train_loss : 0.0922, train_iou: 0.8847 - val_loss 0.1118 - val_iou 0.8669 - val_SE 0.9289 - val_PC 0.9317 - val_F1 0.9266 - val_ACC 0.9819
+epoch [48/300] lr: 0.008518 train_loss : 0.0886, train_iou: 0.8915 - val_loss 0.1057 - val_iou 0.8712 - val_SE 0.9198 - val_PC 0.9457 - val_F1 0.9287 - val_ACC 0.9838
+epoch [49/300] lr: 0.008488 train_loss : 0.0892, train_iou: 0.8890 - val_loss 0.1056 - val_iou 0.8706 - val_SE 0.9139 - val_PC 0.9512 - val_F1 0.9286 - val_ACC 0.9837
+epoch [50/300] lr: 0.008457 train_loss : 0.0867, train_iou: 0.8926 - val_loss 0.1056 - val_iou 0.8703 - val_SE 0.9386 - val_PC 0.9254 - val_F1 0.9280 - val_ACC 0.9833
+epoch [51/300] lr: 0.008427 train_loss : 0.0870, train_iou: 0.8907 - val_loss 0.1202 - val_iou 0.8595 - val_SE 0.8901 - val_PC 0.9636 - val_F1 0.9215 - val_ACC 0.9819
+epoch [52/300] lr: 0.008396 train_loss : 0.0878, train_iou: 0.8917 - val_loss 0.1116 - val_iou 0.8642 - val_SE 0.9371 - val_PC 0.9201 - val_F1 0.9245 - val_ACC 0.9824
+epoch [53/300] lr: 0.008366 train_loss : 0.0837, train_iou: 0.8975 - val_loss 0.1118 - val_iou 0.8647 - val_SE 0.9208 - val_PC 0.9376 - val_F1 0.9245 - val_ACC 0.9827
+epoch [54/300] lr: 0.008335 train_loss : 0.0855, train_iou: 0.8967 - val_loss 0.1082 - val_iou 0.8693 - val_SE 0.9145 - val_PC 0.9489 - val_F1 0.9277 - val_ACC 0.9835
+epoch [55/300] lr: 0.008304 train_loss : 0.0866, train_iou: 0.8924 - val_loss 0.1116 - val_iou 0.8641 - val_SE 0.9342 - val_PC 0.9232 - val_F1 0.9241 - val_ACC 0.9825
+epoch [56/300] lr: 0.008274 train_loss : 0.0817, train_iou: 0.8978 - val_loss 0.1083 - val_iou 0.8679 - val_SE 0.9279 - val_PC 0.9339 - val_F1 0.9269 - val_ACC 0.9830
+epoch [57/300] lr: 0.008243 train_loss : 0.0808, train_iou: 0.9004 - val_loss 0.1086 - val_iou 0.8689 - val_SE 0.9228 - val_PC 0.9398 - val_F1 0.9273 - val_ACC 0.9833
+epoch [58/300] lr: 0.008212 train_loss : 0.0842, train_iou: 0.8951 - val_loss 0.1064 - val_iou 0.8712 - val_SE 0.9319 - val_PC 0.9332 - val_F1 0.9288 - val_ACC 0.9832
+epoch [59/300] lr: 0.008182 train_loss : 0.0845, train_iou: 0.8955 - val_loss 0.1111 - val_iou 0.8670 - val_SE 0.9390 - val_PC 0.9216 - val_F1 0.9259 - val_ACC 0.9825
+epoch [60/300] lr: 0.008151 train_loss : 0.0870, train_iou: 0.8924 - val_loss 0.1144 - val_iou 0.8684 - val_SE 0.9107 - val_PC 0.9525 - val_F1 0.9264 - val_ACC 0.9819
+epoch [61/300] lr: 0.008120 train_loss : 0.0855, train_iou: 0.8946 - val_loss 0.1115 - val_iou 0.8661 - val_SE 0.9152 - val_PC 0.9445 - val_F1 0.9254 - val_ACC 0.9827
+epoch [62/300] lr: 0.008090 train_loss : 0.0815, train_iou: 0.9000 - val_loss 0.1140 - val_iou 0.8671 - val_SE 0.9162 - val_PC 0.9448 - val_F1 0.9260 - val_ACC 0.9822
+epoch [63/300] lr: 0.008059 train_loss : 0.0841, train_iou: 0.8964 - val_loss 0.1129 - val_iou 0.8655 - val_SE 0.9101 - val_PC 0.9497 - val_F1 0.9251 - val_ACC 0.9827
+epoch [64/300] lr: 0.008028 train_loss : 0.0862, train_iou: 0.8924 - val_loss 0.1141 - val_iou 0.8627 - val_SE 0.9360 - val_PC 0.9205 - val_F1 0.9232 - val_ACC 0.9817
+epoch [65/300] lr: 0.007997 train_loss : 0.0870, train_iou: 0.8920 - val_loss 0.1164 - val_iou 0.8608 - val_SE 0.9435 - val_PC 0.9106 - val_F1 0.9219 - val_ACC 0.9814
+epoch [66/300] lr: 0.007967 train_loss : 0.0829, train_iou: 0.8970 - val_loss 0.1142 - val_iou 0.8641 - val_SE 0.9144 - val_PC 0.9435 - val_F1 0.9241 - val_ACC 0.9819
+epoch [67/300] lr: 0.007936 train_loss : 0.0781, train_iou: 0.9021 - val_loss 0.1064 - val_iou 0.8732 - val_SE 0.9294 - val_PC 0.9378 - val_F1 0.9298 - val_ACC 0.9831
+=> saved best model
+epoch [68/300] lr: 0.007905 train_loss : 0.0778, train_iou: 0.9025 - val_loss 0.1117 - val_iou 0.8691 - val_SE 0.9124 - val_PC 0.9504 - val_F1 0.9270 - val_ACC 0.9825
+epoch [69/300] lr: 0.007874 train_loss : 0.0760, train_iou: 0.9062 - val_loss 0.1023 - val_iou 0.8758 - val_SE 0.9300 - val_PC 0.9400 - val_F1 0.9318 - val_ACC 0.9837
+=> saved best model
+epoch [70/300] lr: 0.007844 train_loss : 0.0752, train_iou: 0.9066 - val_loss 0.1098 - val_iou 0.8710 - val_SE 0.9203 - val_PC 0.9447 - val_F1 0.9284 - val_ACC 0.9830
+epoch [71/300] lr: 0.007813 train_loss : 0.0770, train_iou: 0.9029 - val_loss 0.1087 - val_iou 0.8686 - val_SE 0.9149 - val_PC 0.9478 - val_F1 0.9270 - val_ACC 0.9831
+epoch [72/300] lr: 0.007782 train_loss : 0.0780, train_iou: 0.9016 - val_loss 0.1060 - val_iou 0.8713 - val_SE 0.9309 - val_PC 0.9343 - val_F1 0.9286 - val_ACC 0.9835
+epoch [73/300] lr: 0.007751 train_loss : 0.0766, train_iou: 0.9039 - val_loss 0.1049 - val_iou 0.8750 - val_SE 0.9263 - val_PC 0.9432 - val_F1 0.9310 - val_ACC 0.9836
+epoch [74/300] lr: 0.007720 train_loss : 0.0749, train_iou: 0.9057 - val_loss 0.1024 - val_iou 0.8755 - val_SE 0.9308 - val_PC 0.9386 - val_F1 0.9316 - val_ACC 0.9839
+epoch [75/300] lr: 0.007689 train_loss : 0.0729, train_iou: 0.9090 - val_loss 0.1023 - val_iou 0.8748 - val_SE 0.9334 - val_PC 0.9353 - val_F1 0.9311 - val_ACC 0.9840
+epoch [76/300] lr: 0.007658 train_loss : 0.0748, train_iou: 0.9056 - val_loss 0.1219 - val_iou 0.8638 - val_SE 0.9217 - val_PC 0.9359 - val_F1 0.9235 - val_ACC 0.9806
+epoch [77/300] lr: 0.007627 train_loss : 0.0786, train_iou: 0.9004 - val_loss 0.1078 - val_iou 0.8703 - val_SE 0.9247 - val_PC 0.9391 - val_F1 0.9281 - val_ACC 0.9831
+epoch [78/300] lr: 0.007597 train_loss : 0.0753, train_iou: 0.9063 - val_loss 0.1098 - val_iou 0.8695 - val_SE 0.9225 - val_PC 0.9412 - val_F1 0.9273 - val_ACC 0.9830
+epoch [79/300] lr: 0.007566 train_loss : 0.0747, train_iou: 0.9059 - val_loss 0.1071 - val_iou 0.8719 - val_SE 0.9345 - val_PC 0.9313 - val_F1 0.9295 - val_ACC 0.9832
+epoch [80/300] lr: 0.007535 train_loss : 0.0751, train_iou: 0.9059 - val_loss 0.1042 - val_iou 0.8734 - val_SE 0.9313 - val_PC 0.9362 - val_F1 0.9301 - val_ACC 0.9839
+epoch [81/300] lr: 0.007504 train_loss : 0.0736, train_iou: 0.9086 - val_loss 0.1041 - val_iou 0.8734 - val_SE 0.9248 - val_PC 0.9428 - val_F1 0.9299 - val_ACC 0.9844
+epoch [82/300] lr: 0.007473 train_loss : 0.0707, train_iou: 0.9115 - val_loss 0.1016 - val_iou 0.8752 - val_SE 0.9259 - val_PC 0.9430 - val_F1 0.9315 - val_ACC 0.9845
+epoch [83/300] lr: 0.007442 train_loss : 0.0691, train_iou: 0.9124 - val_loss 0.1097 - val_iou 0.8689 - val_SE 0.9072 - val_PC 0.9558 - val_F1 0.9273 - val_ACC 0.9834
+epoch [84/300] lr: 0.007411 train_loss : 0.0691, train_iou: 0.9133 - val_loss 0.1077 - val_iou 0.8711 - val_SE 0.9406 - val_PC 0.9241 - val_F1 0.9285 - val_ACC 0.9833
+epoch [85/300] lr: 0.007380 train_loss : 0.0689, train_iou: 0.9131 - val_loss 0.0995 - val_iou 0.8788 - val_SE 0.9329 - val_PC 0.9400 - val_F1 0.9338 - val_ACC 0.9847
+=> saved best model
+epoch [86/300] lr: 0.007349 train_loss : 0.0690, train_iou: 0.9141 - val_loss 0.1007 - val_iou 0.8766 - val_SE 0.9309 - val_PC 0.9399 - val_F1 0.9323 - val_ACC 0.9845
+epoch [87/300] lr: 0.007318 train_loss : 0.0701, train_iou: 0.9119 - val_loss 0.1044 - val_iou 0.8761 - val_SE 0.9235 - val_PC 0.9468 - val_F1 0.9319 - val_ACC 0.9840
+epoch [88/300] lr: 0.007287 train_loss : 0.0701, train_iou: 0.9113 - val_loss 0.1031 - val_iou 0.8758 - val_SE 0.9212 - val_PC 0.9492 - val_F1 0.9319 - val_ACC 0.9841
+epoch [89/300] lr: 0.007255 train_loss : 0.0669, train_iou: 0.9152 - val_loss 0.1076 - val_iou 0.8732 - val_SE 0.9162 - val_PC 0.9513 - val_F1 0.9300 - val_ACC 0.9837
+epoch [90/300] lr: 0.007224 train_loss : 0.0670, train_iou: 0.9152 - val_loss 0.1059 - val_iou 0.8699 - val_SE 0.9297 - val_PC 0.9339 - val_F1 0.9281 - val_ACC 0.9837
+epoch [91/300] lr: 0.007193 train_loss : 0.0685, train_iou: 0.9133 - val_loss 0.1106 - val_iou 0.8689 - val_SE 0.9348 - val_PC 0.9280 - val_F1 0.9265 - val_ACC 0.9829
+epoch [92/300] lr: 0.007162 train_loss : 0.0709, train_iou: 0.9103 - val_loss 0.1163 - val_iou 0.8646 - val_SE 0.9062 - val_PC 0.9524 - val_F1 0.9243 - val_ACC 0.9827
+epoch [93/300] lr: 0.007131 train_loss : 0.0726, train_iou: 0.9089 - val_loss 0.1200 - val_iou 0.8608 - val_SE 0.9032 - val_PC 0.9500 - val_F1 0.9219 - val_ACC 0.9816
+epoch [94/300] lr: 0.007100 train_loss : 0.0775, train_iou: 0.9034 - val_loss 0.1259 - val_iou 0.8554 - val_SE 0.8982 - val_PC 0.9506 - val_F1 0.9186 - val_ACC 0.9799
+epoch [95/300] lr: 0.007069 train_loss : 0.0773, train_iou: 0.9012 - val_loss 0.1123 - val_iou 0.8676 - val_SE 0.9167 - val_PC 0.9445 - val_F1 0.9262 - val_ACC 0.9823
+epoch [96/300] lr: 0.007037 train_loss : 0.0715, train_iou: 0.9098 - val_loss 0.1030 - val_iou 0.8731 - val_SE 0.9396 - val_PC 0.9274 - val_F1 0.9298 - val_ACC 0.9837
+epoch [97/300] lr: 0.007006 train_loss : 0.0704, train_iou: 0.9118 - val_loss 0.1095 - val_iou 0.8698 - val_SE 0.9329 - val_PC 0.9306 - val_F1 0.9281 - val_ACC 0.9830
+epoch [98/300] lr: 0.006975 train_loss : 0.0686, train_iou: 0.9135 - val_loss 0.1032 - val_iou 0.8748 - val_SE 0.9244 - val_PC 0.9446 - val_F1 0.9309 - val_ACC 0.9843
+epoch [99/300] lr: 0.006944 train_loss : 0.0645, train_iou: 0.9184 - val_loss 0.1006 - val_iou 0.8790 - val_SE 0.9251 - val_PC 0.9482 - val_F1 0.9336 - val_ACC 0.9847
+=> saved best model
+epoch [100/300] lr: 0.006913 train_loss : 0.0617, train_iou: 0.9217 - val_loss 0.1014 - val_iou 0.8781 - val_SE 0.9231 - val_PC 0.9491 - val_F1 0.9328 - val_ACC 0.9847
+epoch [101/300] lr: 0.006881 train_loss : 0.0629, train_iou: 0.9200 - val_loss 0.1007 - val_iou 0.8777 - val_SE 0.9331 - val_PC 0.9385 - val_F1 0.9331 - val_ACC 0.9845
+epoch [102/300] lr: 0.006850 train_loss : 0.0632, train_iou: 0.9202 - val_loss 0.0976 - val_iou 0.8813 - val_SE 0.9329 - val_PC 0.9424 - val_F1 0.9350 - val_ACC 0.9851
+=> saved best model
+epoch [103/300] lr: 0.006819 train_loss : 0.0652, train_iou: 0.9188 - val_loss 0.1007 - val_iou 0.8767 - val_SE 0.9440 - val_PC 0.9267 - val_F1 0.9325 - val_ACC 0.9845
+epoch [104/300] lr: 0.006787 train_loss : 0.0647, train_iou: 0.9178 - val_loss 0.1045 - val_iou 0.8754 - val_SE 0.9272 - val_PC 0.9420 - val_F1 0.9312 - val_ACC 0.9841
+epoch [105/300] lr: 0.006756 train_loss : 0.0643, train_iou: 0.9187 - val_loss 0.1019 - val_iou 0.8761 - val_SE 0.9220 - val_PC 0.9482 - val_F1 0.9318 - val_ACC 0.9846
+epoch [106/300] lr: 0.006725 train_loss : 0.0632, train_iou: 0.9193 - val_loss 0.1002 - val_iou 0.8777 - val_SE 0.9407 - val_PC 0.9314 - val_F1 0.9332 - val_ACC 0.9844
+epoch [107/300] lr: 0.006693 train_loss : 0.0608, train_iou: 0.9230 - val_loss 0.0982 - val_iou 0.8828 - val_SE 0.9333 - val_PC 0.9442 - val_F1 0.9360 - val_ACC 0.9849
+=> saved best model
+epoch [108/300] lr: 0.006662 train_loss : 0.0606, train_iou: 0.9240 - val_loss 0.0987 - val_iou 0.8814 - val_SE 0.9262 - val_PC 0.9500 - val_F1 0.9353 - val_ACC 0.9850
+epoch [109/300] lr: 0.006631 train_loss : 0.0584, train_iou: 0.9268 - val_loss 0.1016 - val_iou 0.8791 - val_SE 0.9317 - val_PC 0.9417 - val_F1 0.9336 - val_ACC 0.9844
+epoch [110/300] lr: 0.006599 train_loss : 0.0601, train_iou: 0.9237 - val_loss 0.1029 - val_iou 0.8784 - val_SE 0.9216 - val_PC 0.9514 - val_F1 0.9331 - val_ACC 0.9844
+epoch [111/300] lr: 0.006568 train_loss : 0.0590, train_iou: 0.9242 - val_loss 0.1053 - val_iou 0.8751 - val_SE 0.9157 - val_PC 0.9537 - val_F1 0.9311 - val_ACC 0.9841
+epoch [112/300] lr: 0.006536 train_loss : 0.0608, train_iou: 0.9239 - val_loss 0.1025 - val_iou 0.8782 - val_SE 0.9323 - val_PC 0.9397 - val_F1 0.9331 - val_ACC 0.9843
+epoch [113/300] lr: 0.006505 train_loss : 0.0583, train_iou: 0.9272 - val_loss 0.0964 - val_iou 0.8829 - val_SE 0.9285 - val_PC 0.9491 - val_F1 0.9344 - val_ACC 0.9854
+=> saved best model
+epoch [114/300] lr: 0.006473 train_loss : 0.0588, train_iou: 0.9248 - val_loss 0.1023 - val_iou 0.8779 - val_SE 0.9247 - val_PC 0.9477 - val_F1 0.9327 - val_ACC 0.9845
+epoch [115/300] lr: 0.006442 train_loss : 0.0580, train_iou: 0.9262 - val_loss 0.0994 - val_iou 0.8793 - val_SE 0.9261 - val_PC 0.9474 - val_F1 0.9341 - val_ACC 0.9850
+epoch [116/300] lr: 0.006410 train_loss : 0.0585, train_iou: 0.9256 - val_loss 0.0999 - val_iou 0.8801 - val_SE 0.9351 - val_PC 0.9391 - val_F1 0.9344 - val_ACC 0.9848
+epoch [117/300] lr: 0.006379 train_loss : 0.0569, train_iou: 0.9268 - val_loss 0.1007 - val_iou 0.8798 - val_SE 0.9230 - val_PC 0.9511 - val_F1 0.9342 - val_ACC 0.9848
+epoch [118/300] lr: 0.006347 train_loss : 0.0567, train_iou: 0.9279 - val_loss 0.1005 - val_iou 0.8798 - val_SE 0.9322 - val_PC 0.9418 - val_F1 0.9341 - val_ACC 0.9846
+epoch [119/300] lr: 0.006316 train_loss : 0.0560, train_iou: 0.9277 - val_loss 0.1013 - val_iou 0.8788 - val_SE 0.9379 - val_PC 0.9350 - val_F1 0.9336 - val_ACC 0.9844
+epoch [120/300] lr: 0.006284 train_loss : 0.0579, train_iou: 0.9262 - val_loss 0.1017 - val_iou 0.8794 - val_SE 0.9281 - val_PC 0.9457 - val_F1 0.9339 - val_ACC 0.9844
+epoch [121/300] lr: 0.006253 train_loss : 0.0603, train_iou: 0.9233 - val_loss 0.1087 - val_iou 0.8723 - val_SE 0.9088 - val_PC 0.9579 - val_F1 0.9292 - val_ACC 0.9841
+epoch [122/300] lr: 0.006221 train_loss : 0.0601, train_iou: 0.9230 - val_loss 0.1028 - val_iou 0.8787 - val_SE 0.9270 - val_PC 0.9464 - val_F1 0.9333 - val_ACC 0.9843
+epoch [123/300] lr: 0.006189 train_loss : 0.0583, train_iou: 0.9262 - val_loss 0.1028 - val_iou 0.8775 - val_SE 0.9237 - val_PC 0.9481 - val_F1 0.9327 - val_ACC 0.9844
+epoch [124/300] lr: 0.006158 train_loss : 0.0588, train_iou: 0.9261 - val_loss 0.1033 - val_iou 0.8766 - val_SE 0.9249 - val_PC 0.9458 - val_F1 0.9321 - val_ACC 0.9844
+epoch [125/300] lr: 0.006126 train_loss : 0.0564, train_iou: 0.9286 - val_loss 0.1037 - val_iou 0.8768 - val_SE 0.9283 - val_PC 0.9428 - val_F1 0.9323 - val_ACC 0.9843
+epoch [126/300] lr: 0.006094 train_loss : 0.0558, train_iou: 0.9291 - val_loss 0.1046 - val_iou 0.8770 - val_SE 0.9317 - val_PC 0.9391 - val_F1 0.9322 - val_ACC 0.9839
+epoch [127/300] lr: 0.006063 train_loss : 0.0569, train_iou: 0.9274 - val_loss 0.1000 - val_iou 0.8795 - val_SE 0.9358 - val_PC 0.9376 - val_F1 0.9341 - val_ACC 0.9846
+epoch [128/300] lr: 0.006031 train_loss : 0.0554, train_iou: 0.9292 - val_loss 0.1025 - val_iou 0.8784 - val_SE 0.9324 - val_PC 0.9402 - val_F1 0.9333 - val_ACC 0.9843
+epoch [129/300] lr: 0.005999 train_loss : 0.0545, train_iou: 0.9306 - val_loss 0.1107 - val_iou 0.8715 - val_SE 0.9109 - val_PC 0.9550 - val_F1 0.9286 - val_ACC 0.9836
+epoch [130/300] lr: 0.005967 train_loss : 0.0573, train_iou: 0.9279 - val_loss 0.1028 - val_iou 0.8776 - val_SE 0.9370 - val_PC 0.9344 - val_F1 0.9328 - val_ACC 0.9841
+epoch [131/300] lr: 0.005936 train_loss : 0.0553, train_iou: 0.9301 - val_loss 0.1018 - val_iou 0.8776 - val_SE 0.9364 - val_PC 0.9354 - val_F1 0.9327 - val_ACC 0.9845
+epoch [132/300] lr: 0.005904 train_loss : 0.0539, train_iou: 0.9317 - val_loss 0.1044 - val_iou 0.8768 - val_SE 0.9141 - val_PC 0.9571 - val_F1 0.9324 - val_ACC 0.9845
+epoch [133/300] lr: 0.005872 train_loss : 0.0577, train_iou: 0.9272 - val_loss 0.1145 - val_iou 0.8702 - val_SE 0.9162 - val_PC 0.9474 - val_F1 0.9278 - val_ACC 0.9831
+epoch [134/300] lr: 0.005840 train_loss : 0.0581, train_iou: 0.9276 - val_loss 0.1055 - val_iou 0.8749 - val_SE 0.9180 - val_PC 0.9508 - val_F1 0.9312 - val_ACC 0.9840
+epoch [135/300] lr: 0.005808 train_loss : 0.0544, train_iou: 0.9305 - val_loss 0.1045 - val_iou 0.8769 - val_SE 0.9117 - val_PC 0.9598 - val_F1 0.9324 - val_ACC 0.9844
+epoch [136/300] lr: 0.005776 train_loss : 0.0531, train_iou: 0.9320 - val_loss 0.1009 - val_iou 0.8810 - val_SE 0.9317 - val_PC 0.9436 - val_F1 0.9349 - val_ACC 0.9847
+epoch [137/300] lr: 0.005744 train_loss : 0.0576, train_iou: 0.9268 - val_loss 0.1138 - val_iou 0.8687 - val_SE 0.9069 - val_PC 0.9563 - val_F1 0.9272 - val_ACC 0.9832
+epoch [138/300] lr: 0.005713 train_loss : 0.0587, train_iou: 0.9252 - val_loss 0.1132 - val_iou 0.8668 - val_SE 0.9358 - val_PC 0.9247 - val_F1 0.9255 - val_ACC 0.9825
+epoch [139/300] lr: 0.005681 train_loss : 0.0569, train_iou: 0.9274 - val_loss 0.1095 - val_iou 0.8728 - val_SE 0.9109 - val_PC 0.9561 - val_F1 0.9296 - val_ACC 0.9837
+epoch [140/300] lr: 0.005649 train_loss : 0.0540, train_iou: 0.9302 - val_loss 0.1074 - val_iou 0.8748 - val_SE 0.9295 - val_PC 0.9389 - val_F1 0.9307 - val_ACC 0.9836
+epoch [141/300] lr: 0.005617 train_loss : 0.0524, train_iou: 0.9340 - val_loss 0.1052 - val_iou 0.8765 - val_SE 0.9252 - val_PC 0.9453 - val_F1 0.9320 - val_ACC 0.9842
+epoch [142/300] lr: 0.005585 train_loss : 0.0527, train_iou: 0.9326 - val_loss 0.1037 - val_iou 0.8773 - val_SE 0.9311 - val_PC 0.9402 - val_F1 0.9327 - val_ACC 0.9842
+epoch [143/300] lr: 0.005553 train_loss : 0.0536, train_iou: 0.9317 - val_loss 0.1050 - val_iou 0.8771 - val_SE 0.9198 - val_PC 0.9515 - val_F1 0.9324 - val_ACC 0.9843
+epoch [144/300] lr: 0.005521 train_loss : 0.0521, train_iou: 0.9327 - val_loss 0.1025 - val_iou 0.8799 - val_SE 0.9227 - val_PC 0.9516 - val_F1 0.9342 - val_ACC 0.9846
+epoch [145/300] lr: 0.005489 train_loss : 0.0525, train_iou: 0.9335 - val_loss 0.1023 - val_iou 0.8807 - val_SE 0.9302 - val_PC 0.9448 - val_F1 0.9347 - val_ACC 0.9845
+epoch [146/300] lr: 0.005457 train_loss : 0.0523, train_iou: 0.9334 - val_loss 0.1119 - val_iou 0.8713 - val_SE 0.9289 - val_PC 0.9358 - val_F1 0.9288 - val_ACC 0.9830
+epoch [147/300] lr: 0.005424 train_loss : 0.0507, train_iou: 0.9350 - val_loss 0.1033 - val_iou 0.8781 - val_SE 0.9291 - val_PC 0.9429 - val_F1 0.9331 - val_ACC 0.9846
+epoch [148/300] lr: 0.005392 train_loss : 0.0521, train_iou: 0.9338 - val_loss 0.1189 - val_iou 0.8675 - val_SE 0.9225 - val_PC 0.9382 - val_F1 0.9260 - val_ACC 0.9820
+epoch [149/300] lr: 0.005360 train_loss : 0.0617, train_iou: 0.9194 - val_loss 0.1250 - val_iou 0.8576 - val_SE 0.9033 - val_PC 0.9479 - val_F1 0.9203 - val_ACC 0.9812
+epoch [150/300] lr: 0.005328 train_loss : 0.0594, train_iou: 0.9255 - val_loss 0.1107 - val_iou 0.8692 - val_SE 0.9323 - val_PC 0.9300 - val_F1 0.9275 - val_ACC 0.9829
+epoch [151/300] lr: 0.005296 train_loss : 0.0577, train_iou: 0.9263 - val_loss 0.1071 - val_iou 0.8730 - val_SE 0.9176 - val_PC 0.9493 - val_F1 0.9299 - val_ACC 0.9837
+epoch [152/300] lr: 0.005264 train_loss : 0.0555, train_iou: 0.9283 - val_loss 0.1117 - val_iou 0.8716 - val_SE 0.9246 - val_PC 0.9402 - val_F1 0.9288 - val_ACC 0.9829
+epoch [153/300] lr: 0.005231 train_loss : 0.0528, train_iou: 0.9327 - val_loss 0.1028 - val_iou 0.8780 - val_SE 0.9288 - val_PC 0.9434 - val_F1 0.9329 - val_ACC 0.9845
+epoch [154/300] lr: 0.005199 train_loss : 0.0531, train_iou: 0.9318 - val_loss 0.1027 - val_iou 0.8790 - val_SE 0.9324 - val_PC 0.9407 - val_F1 0.9334 - val_ACC 0.9844
+epoch [155/300] lr: 0.005167 train_loss : 0.0543, train_iou: 0.9306 - val_loss 0.1049 - val_iou 0.8764 - val_SE 0.9391 - val_PC 0.9316 - val_F1 0.9318 - val_ACC 0.9838
+epoch [156/300] lr: 0.005135 train_loss : 0.0517, train_iou: 0.9338 - val_loss 0.1047 - val_iou 0.8767 - val_SE 0.9174 - val_PC 0.9535 - val_F1 0.9324 - val_ACC 0.9844
+epoch [157/300] lr: 0.005102 train_loss : 0.0509, train_iou: 0.9342 - val_loss 0.1055 - val_iou 0.8765 - val_SE 0.9127 - val_PC 0.9586 - val_F1 0.9323 - val_ACC 0.9845
+epoch [158/300] lr: 0.005070 train_loss : 0.0508, train_iou: 0.9358 - val_loss 0.1086 - val_iou 0.8748 - val_SE 0.9139 - val_PC 0.9553 - val_F1 0.9310 - val_ACC 0.9839
+epoch [159/300] lr: 0.005038 train_loss : 0.0524, train_iou: 0.9326 - val_loss 0.1037 - val_iou 0.8784 - val_SE 0.9336 - val_PC 0.9389 - val_F1 0.9334 - val_ACC 0.9844
+epoch [160/300] lr: 0.005005 train_loss : 0.0491, train_iou: 0.9374 - val_loss 0.1067 - val_iou 0.8770 - val_SE 0.9238 - val_PC 0.9471 - val_F1 0.9323 - val_ACC 0.9840
+epoch [161/300] lr: 0.004973 train_loss : 0.0498, train_iou: 0.9366 - val_loss 0.1043 - val_iou 0.8782 - val_SE 0.9318 - val_PC 0.9407 - val_F1 0.9332 - val_ACC 0.9843
+epoch [162/300] lr: 0.004940 train_loss : 0.0484, train_iou: 0.9377 - val_loss 0.1050 - val_iou 0.8781 - val_SE 0.9302 - val_PC 0.9418 - val_F1 0.9331 - val_ACC 0.9842
+epoch [163/300] lr: 0.004908 train_loss : 0.0494, train_iou: 0.9364 - val_loss 0.1040 - val_iou 0.8794 - val_SE 0.9244 - val_PC 0.9491 - val_F1 0.9338 - val_ACC 0.9845
+epoch [164/300] lr: 0.004875 train_loss : 0.0480, train_iou: 0.9388 - val_loss 0.1038 - val_iou 0.8782 - val_SE 0.9231 - val_PC 0.9494 - val_F1 0.9332 - val_ACC 0.9844
+epoch [165/300] lr: 0.004843 train_loss : 0.0477, train_iou: 0.9392 - val_loss 0.1037 - val_iou 0.8798 - val_SE 0.9317 - val_PC 0.9425 - val_F1 0.9342 - val_ACC 0.9843
+epoch [166/300] lr: 0.004810 train_loss : 0.0472, train_iou: 0.9401 - val_loss 0.1077 - val_iou 0.8766 - val_SE 0.9226 - val_PC 0.9482 - val_F1 0.9322 - val_ACC 0.9839
+epoch [167/300] lr: 0.004778 train_loss : 0.0475, train_iou: 0.9393 - val_loss 0.1029 - val_iou 0.8802 - val_SE 0.9337 - val_PC 0.9405 - val_F1 0.9345 - val_ACC 0.9844
+epoch [168/300] lr: 0.004745 train_loss : 0.0476, train_iou: 0.9396 - val_loss 0.1058 - val_iou 0.8777 - val_SE 0.9338 - val_PC 0.9383 - val_F1 0.9329 - val_ACC 0.9840
+epoch [169/300] lr: 0.004713 train_loss : 0.0468, train_iou: 0.9399 - val_loss 0.1020 - val_iou 0.8811 - val_SE 0.9303 - val_PC 0.9452 - val_F1 0.9350 - val_ACC 0.9847
+epoch [170/300] lr: 0.004680 train_loss : 0.0473, train_iou: 0.9394 - val_loss 0.1052 - val_iou 0.8776 - val_SE 0.9250 - val_PC 0.9468 - val_F1 0.9328 - val_ACC 0.9843
+epoch [171/300] lr: 0.004647 train_loss : 0.0463, train_iou: 0.9403 - val_loss 0.1062 - val_iou 0.8771 - val_SE 0.9130 - val_PC 0.9587 - val_F1 0.9326 - val_ACC 0.9844
+epoch [172/300] lr: 0.004615 train_loss : 0.0500, train_iou: 0.9366 - val_loss 0.1085 - val_iou 0.8755 - val_SE 0.9302 - val_PC 0.9395 - val_F1 0.9314 - val_ACC 0.9837
+epoch [173/300] lr: 0.004582 train_loss : 0.0498, train_iou: 0.9361 - val_loss 0.1000 - val_iou 0.8814 - val_SE 0.9307 - val_PC 0.9449 - val_F1 0.9353 - val_ACC 0.9851
+epoch [174/300] lr: 0.004549 train_loss : 0.0468, train_iou: 0.9399 - val_loss 0.1047 - val_iou 0.8771 - val_SE 0.9179 - val_PC 0.9538 - val_F1 0.9326 - val_ACC 0.9846
+epoch [175/300] lr: 0.004516 train_loss : 0.0462, train_iou: 0.9405 - val_loss 0.1030 - val_iou 0.8792 - val_SE 0.9204 - val_PC 0.9531 - val_F1 0.9338 - val_ACC 0.9849
+epoch [176/300] lr: 0.004484 train_loss : 0.0463, train_iou: 0.9411 - val_loss 0.1022 - val_iou 0.8792 - val_SE 0.9299 - val_PC 0.9436 - val_F1 0.9338 - val_ACC 0.9848
+epoch [177/300] lr: 0.004451 train_loss : 0.0467, train_iou: 0.9402 - val_loss 0.1041 - val_iou 0.8786 - val_SE 0.9227 - val_PC 0.9502 - val_F1 0.9335 - val_ACC 0.9846
+epoch [178/300] lr: 0.004418 train_loss : 0.0453, train_iou: 0.9430 - val_loss 0.1046 - val_iou 0.8787 - val_SE 0.9273 - val_PC 0.9457 - val_F1 0.9334 - val_ACC 0.9845
+epoch [179/300] lr: 0.004385 train_loss : 0.0462, train_iou: 0.9405 - val_loss 0.1036 - val_iou 0.8794 - val_SE 0.9277 - val_PC 0.9462 - val_F1 0.9340 - val_ACC 0.9846
+epoch [180/300] lr: 0.004352 train_loss : 0.0451, train_iou: 0.9419 - val_loss 0.1042 - val_iou 0.8788 - val_SE 0.9245 - val_PC 0.9488 - val_F1 0.9335 - val_ACC 0.9846
+epoch [181/300] lr: 0.004319 train_loss : 0.0449, train_iou: 0.9424 - val_loss 0.1060 - val_iou 0.8776 - val_SE 0.9231 - val_PC 0.9486 - val_F1 0.9327 - val_ACC 0.9843
+epoch [182/300] lr: 0.004286 train_loss : 0.0448, train_iou: 0.9424 - val_loss 0.1044 - val_iou 0.8785 - val_SE 0.9289 - val_PC 0.9435 - val_F1 0.9333 - val_ACC 0.9845
+epoch [183/300] lr: 0.004253 train_loss : 0.0455, train_iou: 0.9412 - val_loss 0.1022 - val_iou 0.8806 - val_SE 0.9322 - val_PC 0.9424 - val_F1 0.9347 - val_ACC 0.9848
+epoch [184/300] lr: 0.004220 train_loss : 0.0442, train_iou: 0.9436 - val_loss 0.1019 - val_iou 0.8816 - val_SE 0.9287 - val_PC 0.9471 - val_F1 0.9353 - val_ACC 0.9850
+epoch [185/300] lr: 0.004187 train_loss : 0.0451, train_iou: 0.9417 - val_loss 0.1015 - val_iou 0.8805 - val_SE 0.9277 - val_PC 0.9470 - val_F1 0.9347 - val_ACC 0.9849
+epoch [186/300] lr: 0.004154 train_loss : 0.0428, train_iou: 0.9449 - val_loss 0.1013 - val_iou 0.8809 - val_SE 0.9343 - val_PC 0.9408 - val_F1 0.9350 - val_ACC 0.9849
+epoch [187/300] lr: 0.004121 train_loss : 0.0444, train_iou: 0.9430 - val_loss 0.1032 - val_iou 0.8797 - val_SE 0.9324 - val_PC 0.9412 - val_F1 0.9342 - val_ACC 0.9847
+epoch [188/300] lr: 0.004088 train_loss : 0.0442, train_iou: 0.9431 - val_loss 0.1061 - val_iou 0.8782 - val_SE 0.9236 - val_PC 0.9488 - val_F1 0.9332 - val_ACC 0.9844
+epoch [189/300] lr: 0.004055 train_loss : 0.0425, train_iou: 0.9457 - val_loss 0.1057 - val_iou 0.8776 - val_SE 0.9219 - val_PC 0.9498 - val_F1 0.9328 - val_ACC 0.9844
+epoch [190/300] lr: 0.004022 train_loss : 0.0424, train_iou: 0.9456 - val_loss 0.1064 - val_iou 0.8778 - val_SE 0.9222 - val_PC 0.9496 - val_F1 0.9330 - val_ACC 0.9843
+epoch [191/300] lr: 0.003989 train_loss : 0.0423, train_iou: 0.9455 - val_loss 0.1047 - val_iou 0.8797 - val_SE 0.9277 - val_PC 0.9462 - val_F1 0.9341 - val_ACC 0.9846
+epoch [192/300] lr: 0.003955 train_loss : 0.0423, train_iou: 0.9462 - val_loss 0.1045 - val_iou 0.8790 - val_SE 0.9253 - val_PC 0.9479 - val_F1 0.9338 - val_ACC 0.9846
+epoch [193/300] lr: 0.003922 train_loss : 0.0435, train_iou: 0.9442 - val_loss 0.1058 - val_iou 0.8779 - val_SE 0.9233 - val_PC 0.9488 - val_F1 0.9331 - val_ACC 0.9844
+epoch [194/300] lr: 0.003889 train_loss : 0.0434, train_iou: 0.9440 - val_loss 0.1039 - val_iou 0.8784 - val_SE 0.9222 - val_PC 0.9501 - val_F1 0.9334 - val_ACC 0.9847
+epoch [195/300] lr: 0.003855 train_loss : 0.0420, train_iou: 0.9456 - val_loss 0.1074 - val_iou 0.8774 - val_SE 0.9214 - val_PC 0.9500 - val_F1 0.9327 - val_ACC 0.9843
+epoch [196/300] lr: 0.003822 train_loss : 0.0410, train_iou: 0.9472 - val_loss 0.1040 - val_iou 0.8797 - val_SE 0.9305 - val_PC 0.9431 - val_F1 0.9341 - val_ACC 0.9846
+epoch [197/300] lr: 0.003789 train_loss : 0.0416, train_iou: 0.9462 - val_loss 0.1070 - val_iou 0.8781 - val_SE 0.9309 - val_PC 0.9411 - val_F1 0.9332 - val_ACC 0.9843
+epoch [198/300] lr: 0.003755 train_loss : 0.0427, train_iou: 0.9447 - val_loss 0.1070 - val_iou 0.8772 - val_SE 0.9353 - val_PC 0.9354 - val_F1 0.9326 - val_ACC 0.9841
+epoch [199/300] lr: 0.003722 train_loss : 0.0405, train_iou: 0.9488 - val_loss 0.1073 - val_iou 0.8774 - val_SE 0.9219 - val_PC 0.9497 - val_F1 0.9327 - val_ACC 0.9843
+epoch [200/300] lr: 0.003688 train_loss : 0.0412, train_iou: 0.9469 - val_loss 0.1052 - val_iou 0.8787 - val_SE 0.9316 - val_PC 0.9410 - val_F1 0.9336 - val_ACC 0.9844
+epoch [201/300] lr: 0.003655 train_loss : 0.0414, train_iou: 0.9471 - val_loss 0.1069 - val_iou 0.8781 - val_SE 0.9254 - val_PC 0.9468 - val_F1 0.9332 - val_ACC 0.9843
+epoch [202/300] lr: 0.003621 train_loss : 0.0428, train_iou: 0.9453 - val_loss 0.1051 - val_iou 0.8787 - val_SE 0.9268 - val_PC 0.9458 - val_F1 0.9336 - val_ACC 0.9848
+epoch [203/300] lr: 0.003588 train_loss : 0.0408, train_iou: 0.9480 - val_loss 0.1059 - val_iou 0.8776 - val_SE 0.9288 - val_PC 0.9428 - val_F1 0.9328 - val_ACC 0.9844
+epoch [204/300] lr: 0.003554 train_loss : 0.0400, train_iou: 0.9493 - val_loss 0.1059 - val_iou 0.8786 - val_SE 0.9339 - val_PC 0.9386 - val_F1 0.9334 - val_ACC 0.9843
+epoch [205/300] lr: 0.003520 train_loss : 0.0411, train_iou: 0.9470 - val_loss 0.1060 - val_iou 0.8784 - val_SE 0.9267 - val_PC 0.9457 - val_F1 0.9334 - val_ACC 0.9845
+epoch [206/300] lr: 0.003487 train_loss : 0.0402, train_iou: 0.9483 - val_loss 0.1062 - val_iou 0.8779 - val_SE 0.9278 - val_PC 0.9440 - val_F1 0.9331 - val_ACC 0.9844
+epoch [207/300] lr: 0.003453 train_loss : 0.0425, train_iou: 0.9459 - val_loss 0.1059 - val_iou 0.8784 - val_SE 0.9251 - val_PC 0.9473 - val_F1 0.9334 - val_ACC 0.9844
+epoch [208/300] lr: 0.003419 train_loss : 0.0404, train_iou: 0.9476 - val_loss 0.1056 - val_iou 0.8784 - val_SE 0.9301 - val_PC 0.9422 - val_F1 0.9334 - val_ACC 0.9845
+epoch [209/300] lr: 0.003385 train_loss : 0.0397, train_iou: 0.9495 - val_loss 0.1068 - val_iou 0.8778 - val_SE 0.9222 - val_PC 0.9498 - val_F1 0.9330 - val_ACC 0.9844
+epoch [210/300] lr: 0.003351 train_loss : 0.0387, train_iou: 0.9500 - val_loss 0.1056 - val_iou 0.8792 - val_SE 0.9264 - val_PC 0.9470 - val_F1 0.9338 - val_ACC 0.9845
+epoch [211/300] lr: 0.003317 train_loss : 0.0396, train_iou: 0.9490 - val_loss 0.1063 - val_iou 0.8785 - val_SE 0.9272 - val_PC 0.9453 - val_F1 0.9334 - val_ACC 0.9844
+epoch [212/300] lr: 0.003284 train_loss : 0.0385, train_iou: 0.9503 - val_loss 0.1061 - val_iou 0.8792 - val_SE 0.9258 - val_PC 0.9476 - val_F1 0.9337 - val_ACC 0.9845
+epoch [213/300] lr: 0.003250 train_loss : 0.0391, train_iou: 0.9497 - val_loss 0.1087 - val_iou 0.8765 - val_SE 0.9190 - val_PC 0.9518 - val_F1 0.9321 - val_ACC 0.9843
+epoch [214/300] lr: 0.003216 train_loss : 0.0398, train_iou: 0.9485 - val_loss 0.1059 - val_iou 0.8786 - val_SE 0.9298 - val_PC 0.9427 - val_F1 0.9334 - val_ACC 0.9844
+epoch [215/300] lr: 0.003181 train_loss : 0.0399, train_iou: 0.9485 - val_loss 0.1051 - val_iou 0.8794 - val_SE 0.9272 - val_PC 0.9464 - val_F1 0.9339 - val_ACC 0.9846
+epoch [216/300] lr: 0.003147 train_loss : 0.0400, train_iou: 0.9481 - val_loss 0.1083 - val_iou 0.8764 - val_SE 0.9216 - val_PC 0.9488 - val_F1 0.9320 - val_ACC 0.9842
+epoch [217/300] lr: 0.003113 train_loss : 0.0392, train_iou: 0.9501 - val_loss 0.1060 - val_iou 0.8796 - val_SE 0.9326 - val_PC 0.9413 - val_F1 0.9341 - val_ACC 0.9844
+epoch [218/300] lr: 0.003079 train_loss : 0.0396, train_iou: 0.9487 - val_loss 0.1055 - val_iou 0.8787 - val_SE 0.9325 - val_PC 0.9402 - val_F1 0.9336 - val_ACC 0.9845
+epoch [219/300] lr: 0.003045 train_loss : 0.0388, train_iou: 0.9505 - val_loss 0.1084 - val_iou 0.8776 - val_SE 0.9197 - val_PC 0.9522 - val_F1 0.9328 - val_ACC 0.9843
+epoch [220/300] lr: 0.003011 train_loss : 0.0392, train_iou: 0.9495 - val_loss 0.1060 - val_iou 0.8787 - val_SE 0.9283 - val_PC 0.9447 - val_F1 0.9336 - val_ACC 0.9845
+epoch [221/300] lr: 0.002976 train_loss : 0.0382, train_iou: 0.9507 - val_loss 0.1084 - val_iou 0.8763 - val_SE 0.9170 - val_PC 0.9535 - val_F1 0.9321 - val_ACC 0.9843
+epoch [222/300] lr: 0.002942 train_loss : 0.0369, train_iou: 0.9527 - val_loss 0.1066 - val_iou 0.8788 - val_SE 0.9264 - val_PC 0.9467 - val_F1 0.9336 - val_ACC 0.9845
+epoch [223/300] lr: 0.002908 train_loss : 0.0384, train_iou: 0.9508 - val_loss 0.1083 - val_iou 0.8779 - val_SE 0.9267 - val_PC 0.9453 - val_F1 0.9330 - val_ACC 0.9842
+epoch [224/300] lr: 0.002873 train_loss : 0.0391, train_iou: 0.9494 - val_loss 0.1071 - val_iou 0.8784 - val_SE 0.9335 - val_PC 0.9391 - val_F1 0.9333 - val_ACC 0.9843
+epoch [225/300] lr: 0.002839 train_loss : 0.0381, train_iou: 0.9515 - val_loss 0.1077 - val_iou 0.8776 - val_SE 0.9286 - val_PC 0.9430 - val_F1 0.9329 - val_ACC 0.9843
+epoch [226/300] lr: 0.002804 train_loss : 0.0371, train_iou: 0.9518 - val_loss 0.1070 - val_iou 0.8780 - val_SE 0.9273 - val_PC 0.9448 - val_F1 0.9331 - val_ACC 0.9844
+epoch [227/300] lr: 0.002770 train_loss : 0.0377, train_iou: 0.9512 - val_loss 0.1094 - val_iou 0.8773 - val_SE 0.9258 - val_PC 0.9455 - val_F1 0.9325 - val_ACC 0.9840
+epoch [228/300] lr: 0.002735 train_loss : 0.0375, train_iou: 0.9519 - val_loss 0.1102 - val_iou 0.8768 - val_SE 0.9237 - val_PC 0.9473 - val_F1 0.9323 - val_ACC 0.9841
+epoch [229/300] lr: 0.002700 train_loss : 0.0381, train_iou: 0.9508 - val_loss 0.1087 - val_iou 0.8765 - val_SE 0.9211 - val_PC 0.9494 - val_F1 0.9322 - val_ACC 0.9842
+epoch [230/300] lr: 0.002666 train_loss : 0.0380, train_iou: 0.9515 - val_loss 0.1064 - val_iou 0.8783 - val_SE 0.9320 - val_PC 0.9404 - val_F1 0.9332 - val_ACC 0.9844
+epoch [231/300] lr: 0.002631 train_loss : 0.0380, train_iou: 0.9510 - val_loss 0.1082 - val_iou 0.8777 - val_SE 0.9228 - val_PC 0.9492 - val_F1 0.9328 - val_ACC 0.9844
+epoch [232/300] lr: 0.002596 train_loss : 0.0363, train_iou: 0.9535 - val_loss 0.1076 - val_iou 0.8780 - val_SE 0.9242 - val_PC 0.9480 - val_F1 0.9330 - val_ACC 0.9844
+epoch [233/300] lr: 0.002561 train_loss : 0.0381, train_iou: 0.9520 - val_loss 0.1082 - val_iou 0.8776 - val_SE 0.9220 - val_PC 0.9500 - val_F1 0.9329 - val_ACC 0.9843
+epoch [234/300] lr: 0.002526 train_loss : 0.0363, train_iou: 0.9536 - val_loss 0.1079 - val_iou 0.8783 - val_SE 0.9275 - val_PC 0.9450 - val_F1 0.9333 - val_ACC 0.9843
+epoch [235/300] lr: 0.002491 train_loss : 0.0373, train_iou: 0.9529 - val_loss 0.1078 - val_iou 0.8774 - val_SE 0.9230 - val_PC 0.9486 - val_F1 0.9328 - val_ACC 0.9844
+epoch [236/300] lr: 0.002456 train_loss : 0.0367, train_iou: 0.9535 - val_loss 0.1075 - val_iou 0.8785 - val_SE 0.9315 - val_PC 0.9412 - val_F1 0.9334 - val_ACC 0.9843
+epoch [237/300] lr: 0.002421 train_loss : 0.0366, train_iou: 0.9532 - val_loss 0.1087 - val_iou 0.8772 - val_SE 0.9325 - val_PC 0.9387 - val_F1 0.9326 - val_ACC 0.9841
+epoch [238/300] lr: 0.002386 train_loss : 0.0364, train_iou: 0.9533 - val_loss 0.1084 - val_iou 0.8782 - val_SE 0.9270 - val_PC 0.9452 - val_F1 0.9332 - val_ACC 0.9843
+epoch [239/300] lr: 0.002351 train_loss : 0.0371, train_iou: 0.9527 - val_loss 0.1077 - val_iou 0.8783 - val_SE 0.9233 - val_PC 0.9494 - val_F1 0.9333 - val_ACC 0.9845
+epoch [240/300] lr: 0.002315 train_loss : 0.0356, train_iou: 0.9541 - val_loss 0.1071 - val_iou 0.8785 - val_SE 0.9241 - val_PC 0.9486 - val_F1 0.9333 - val_ACC 0.9846
+epoch [241/300] lr: 0.002280 train_loss : 0.0356, train_iou: 0.9546 - val_loss 0.1085 - val_iou 0.8780 - val_SE 0.9254 - val_PC 0.9467 - val_F1 0.9330 - val_ACC 0.9844
+epoch [242/300] lr: 0.002245 train_loss : 0.0369, train_iou: 0.9526 - val_loss 0.1081 - val_iou 0.8778 - val_SE 0.9273 - val_PC 0.9446 - val_F1 0.9330 - val_ACC 0.9844
+epoch [243/300] lr: 0.002209 train_loss : 0.0363, train_iou: 0.9533 - val_loss 0.1074 - val_iou 0.8785 - val_SE 0.9264 - val_PC 0.9462 - val_F1 0.9334 - val_ACC 0.9844
+epoch [244/300] lr: 0.002174 train_loss : 0.0361, train_iou: 0.9540 - val_loss 0.1088 - val_iou 0.8771 - val_SE 0.9303 - val_PC 0.9409 - val_F1 0.9326 - val_ACC 0.9841
+epoch [245/300] lr: 0.002138 train_loss : 0.0366, train_iou: 0.9528 - val_loss 0.1080 - val_iou 0.8783 - val_SE 0.9251 - val_PC 0.9474 - val_F1 0.9333 - val_ACC 0.9843
+epoch [246/300] lr: 0.002102 train_loss : 0.0350, train_iou: 0.9554 - val_loss 0.1111 - val_iou 0.8765 - val_SE 0.9180 - val_PC 0.9529 - val_F1 0.9321 - val_ACC 0.9842
+epoch [247/300] lr: 0.002067 train_loss : 0.0355, train_iou: 0.9545 - val_loss 0.1091 - val_iou 0.8780 - val_SE 0.9249 - val_PC 0.9473 - val_F1 0.9331 - val_ACC 0.9843
+epoch [248/300] lr: 0.002031 train_loss : 0.0366, train_iou: 0.9531 - val_loss 0.1110 - val_iou 0.8765 - val_SE 0.9199 - val_PC 0.9508 - val_F1 0.9320 - val_ACC 0.9841
+epoch [249/300] lr: 0.001995 train_loss : 0.0339, train_iou: 0.9566 - val_loss 0.1095 - val_iou 0.8779 - val_SE 0.9272 - val_PC 0.9449 - val_F1 0.9330 - val_ACC 0.9842
+epoch [250/300] lr: 0.001959 train_loss : 0.0351, train_iou: 0.9549 - val_loss 0.1086 - val_iou 0.8780 - val_SE 0.9260 - val_PC 0.9462 - val_F1 0.9331 - val_ACC 0.9843
+epoch [251/300] lr: 0.001923 train_loss : 0.0358, train_iou: 0.9537 - val_loss 0.1098 - val_iou 0.8774 - val_SE 0.9254 - val_PC 0.9459 - val_F1 0.9327 - val_ACC 0.9841
+epoch [252/300] lr: 0.001887 train_loss : 0.0347, train_iou: 0.9553 - val_loss 0.1081 - val_iou 0.8786 - val_SE 0.9273 - val_PC 0.9456 - val_F1 0.9334 - val_ACC 0.9844
+epoch [253/300] lr: 0.001851 train_loss : 0.0361, train_iou: 0.9541 - val_loss 0.1099 - val_iou 0.8776 - val_SE 0.9216 - val_PC 0.9501 - val_F1 0.9327 - val_ACC 0.9843
+epoch [254/300] lr: 0.001815 train_loss : 0.0357, train_iou: 0.9543 - val_loss 0.1089 - val_iou 0.8781 - val_SE 0.9287 - val_PC 0.9435 - val_F1 0.9331 - val_ACC 0.9843
+epoch [255/300] lr: 0.001778 train_loss : 0.0350, train_iou: 0.9546 - val_loss 0.1088 - val_iou 0.8783 - val_SE 0.9263 - val_PC 0.9462 - val_F1 0.9332 - val_ACC 0.9844
+epoch [256/300] lr: 0.001742 train_loss : 0.0346, train_iou: 0.9552 - val_loss 0.1079 - val_iou 0.8787 - val_SE 0.9256 - val_PC 0.9473 - val_F1 0.9335 - val_ACC 0.9844
+epoch [257/300] lr: 0.001706 train_loss : 0.0354, train_iou: 0.9548 - val_loss 0.1084 - val_iou 0.8782 - val_SE 0.9294 - val_PC 0.9430 - val_F1 0.9333 - val_ACC 0.9843
+epoch [258/300] lr: 0.001669 train_loss : 0.0343, train_iou: 0.9558 - val_loss 0.1091 - val_iou 0.8785 - val_SE 0.9251 - val_PC 0.9477 - val_F1 0.9333 - val_ACC 0.9843
+epoch [259/300] lr: 0.001632 train_loss : 0.0351, train_iou: 0.9551 - val_loss 0.1095 - val_iou 0.8774 - val_SE 0.9241 - val_PC 0.9477 - val_F1 0.9327 - val_ACC 0.9843
+epoch [260/300] lr: 0.001596 train_loss : 0.0356, train_iou: 0.9535 - val_loss 0.1080 - val_iou 0.8790 - val_SE 0.9276 - val_PC 0.9457 - val_F1 0.9337 - val_ACC 0.9845
+epoch [261/300] lr: 0.001559 train_loss : 0.0344, train_iou: 0.9562 - val_loss 0.1097 - val_iou 0.8776 - val_SE 0.9266 - val_PC 0.9452 - val_F1 0.9328 - val_ACC 0.9843
+epoch [262/300] lr: 0.001522 train_loss : 0.0355, train_iou: 0.9545 - val_loss 0.1090 - val_iou 0.8782 - val_SE 0.9266 - val_PC 0.9458 - val_F1 0.9332 - val_ACC 0.9843
+epoch [263/300] lr: 0.001485 train_loss : 0.0334, train_iou: 0.9567 - val_loss 0.1092 - val_iou 0.8783 - val_SE 0.9264 - val_PC 0.9461 - val_F1 0.9332 - val_ACC 0.9843
+epoch [264/300] lr: 0.001448 train_loss : 0.0342, train_iou: 0.9564 - val_loss 0.1105 - val_iou 0.8770 - val_SE 0.9233 - val_PC 0.9478 - val_F1 0.9324 - val_ACC 0.9842
+epoch [265/300] lr: 0.001411 train_loss : 0.0358, train_iou: 0.9539 - val_loss 0.1095 - val_iou 0.8784 - val_SE 0.9241 - val_PC 0.9487 - val_F1 0.9333 - val_ACC 0.9844
+epoch [266/300] lr: 0.001373 train_loss : 0.0348, train_iou: 0.9555 - val_loss 0.1090 - val_iou 0.8783 - val_SE 0.9244 - val_PC 0.9481 - val_F1 0.9332 - val_ACC 0.9844
+epoch [267/300] lr: 0.001336 train_loss : 0.0347, train_iou: 0.9548 - val_loss 0.1090 - val_iou 0.8786 - val_SE 0.9290 - val_PC 0.9438 - val_F1 0.9334 - val_ACC 0.9843
+epoch [268/300] lr: 0.001298 train_loss : 0.0331, train_iou: 0.9575 - val_loss 0.1109 - val_iou 0.8766 - val_SE 0.9200 - val_PC 0.9509 - val_F1 0.9322 - val_ACC 0.9842
+epoch [269/300] lr: 0.001260 train_loss : 0.0334, train_iou: 0.9566 - val_loss 0.1099 - val_iou 0.8777 - val_SE 0.9268 - val_PC 0.9450 - val_F1 0.9328 - val_ACC 0.9842
+epoch [270/300] lr: 0.001223 train_loss : 0.0337, train_iou: 0.9566 - val_loss 0.1092 - val_iou 0.8775 - val_SE 0.9254 - val_PC 0.9462 - val_F1 0.9327 - val_ACC 0.9843
+epoch [271/300] lr: 0.001185 train_loss : 0.0340, train_iou: 0.9562 - val_loss 0.1104 - val_iou 0.8773 - val_SE 0.9227 - val_PC 0.9488 - val_F1 0.9326 - val_ACC 0.9843
+epoch [272/300] lr: 0.001147 train_loss : 0.0338, train_iou: 0.9569 - val_loss 0.1094 - val_iou 0.8779 - val_SE 0.9272 - val_PC 0.9449 - val_F1 0.9330 - val_ACC 0.9842
+epoch [273/300] lr: 0.001108 train_loss : 0.0340, train_iou: 0.9566 - val_loss 0.1099 - val_iou 0.8778 - val_SE 0.9272 - val_PC 0.9447 - val_F1 0.9329 - val_ACC 0.9843
+epoch [274/300] lr: 0.001070 train_loss : 0.0340, train_iou: 0.9562 - val_loss 0.1113 - val_iou 0.8774 - val_SE 0.9240 - val_PC 0.9475 - val_F1 0.9326 - val_ACC 0.9842
+epoch [275/300] lr: 0.001031 train_loss : 0.0338, train_iou: 0.9566 - val_loss 0.1106 - val_iou 0.8770 - val_SE 0.9221 - val_PC 0.9490 - val_F1 0.9324 - val_ACC 0.9842
+epoch [276/300] lr: 0.000993 train_loss : 0.0334, train_iou: 0.9568 - val_loss 0.1104 - val_iou 0.8775 - val_SE 0.9241 - val_PC 0.9474 - val_F1 0.9327 - val_ACC 0.9843
+epoch [277/300] lr: 0.000954 train_loss : 0.0340, train_iou: 0.9561 - val_loss 0.1105 - val_iou 0.8774 - val_SE 0.9246 - val_PC 0.9469 - val_F1 0.9326 - val_ACC 0.9842
+epoch [278/300] lr: 0.000915 train_loss : 0.0327, train_iou: 0.9576 - val_loss 0.1108 - val_iou 0.8773 - val_SE 0.9224 - val_PC 0.9491 - val_F1 0.9326 - val_ACC 0.9843
+epoch [279/300] lr: 0.000876 train_loss : 0.0340, train_iou: 0.9567 - val_loss 0.1089 - val_iou 0.8780 - val_SE 0.9300 - val_PC 0.9420 - val_F1 0.9331 - val_ACC 0.9843
+epoch [280/300] lr: 0.000836 train_loss : 0.0342, train_iou: 0.9560 - val_loss 0.1091 - val_iou 0.8780 - val_SE 0.9273 - val_PC 0.9449 - val_F1 0.9330 - val_ACC 0.9844
+epoch [281/300] lr: 0.000797 train_loss : 0.0344, train_iou: 0.9557 - val_loss 0.1096 - val_iou 0.8781 - val_SE 0.9276 - val_PC 0.9446 - val_F1 0.9331 - val_ACC 0.9843
+epoch [282/300] lr: 0.000757 train_loss : 0.0345, train_iou: 0.9554 - val_loss 0.1102 - val_iou 0.8777 - val_SE 0.9245 - val_PC 0.9474 - val_F1 0.9329 - val_ACC 0.9843
+epoch [283/300] lr: 0.000717 train_loss : 0.0326, train_iou: 0.9583 - val_loss 0.1089 - val_iou 0.8782 - val_SE 0.9270 - val_PC 0.9453 - val_F1 0.9332 - val_ACC 0.9844
+epoch [284/300] lr: 0.000676 train_loss : 0.0341, train_iou: 0.9564 - val_loss 0.1101 - val_iou 0.8773 - val_SE 0.9232 - val_PC 0.9481 - val_F1 0.9326 - val_ACC 0.9842
+epoch [285/300] lr: 0.000636 train_loss : 0.0338, train_iou: 0.9565 - val_loss 0.1104 - val_iou 0.8774 - val_SE 0.9218 - val_PC 0.9498 - val_F1 0.9327 - val_ACC 0.9843
+epoch [286/300] lr: 0.000595 train_loss : 0.0330, train_iou: 0.9575 - val_loss 0.1097 - val_iou 0.8778 - val_SE 0.9255 - val_PC 0.9464 - val_F1 0.9330 - val_ACC 0.9843
+epoch [287/300] lr: 0.000554 train_loss : 0.0336, train_iou: 0.9570 - val_loss 0.1099 - val_iou 0.8774 - val_SE 0.9251 - val_PC 0.9464 - val_F1 0.9327 - val_ACC 0.9843
+epoch [288/300] lr: 0.000512 train_loss : 0.0322, train_iou: 0.9590 - val_loss 0.1092 - val_iou 0.8782 - val_SE 0.9279 - val_PC 0.9444 - val_F1 0.9332 - val_ACC 0.9844
+epoch [289/300] lr: 0.000470 train_loss : 0.0335, train_iou: 0.9570 - val_loss 0.1088 - val_iou 0.8785 - val_SE 0.9293 - val_PC 0.9434 - val_F1 0.9334 - val_ACC 0.9844
+epoch [290/300] lr: 0.000428 train_loss : 0.0318, train_iou: 0.9589 - val_loss 0.1100 - val_iou 0.8778 - val_SE 0.9253 - val_PC 0.9466 - val_F1 0.9329 - val_ACC 0.9843
+epoch [291/300] lr: 0.000385 train_loss : 0.0332, train_iou: 0.9572 - val_loss 0.1101 - val_iou 0.8780 - val_SE 0.9254 - val_PC 0.9467 - val_F1 0.9330 - val_ACC 0.9843
+epoch [292/300] lr: 0.000342 train_loss : 0.0327, train_iou: 0.9584 - val_loss 0.1094 - val_iou 0.8782 - val_SE 0.9273 - val_PC 0.9451 - val_F1 0.9332 - val_ACC 0.9844
+epoch [293/300] lr: 0.000298 train_loss : 0.0330, train_iou: 0.9578 - val_loss 0.1099 - val_iou 0.8778 - val_SE 0.9250 - val_PC 0.9469 - val_F1 0.9329 - val_ACC 0.9843
+epoch [294/300] lr: 0.000253 train_loss : 0.0319, train_iou: 0.9591 - val_loss 0.1103 - val_iou 0.8776 - val_SE 0.9265 - val_PC 0.9452 - val_F1 0.9328 - val_ACC 0.9842
+epoch [295/300] lr: 0.000207 train_loss : 0.0335, train_iou: 0.9570 - val_loss 0.1094 - val_iou 0.8784 - val_SE 0.9257 - val_PC 0.9470 - val_F1 0.9333 - val_ACC 0.9844
+epoch [296/300] lr: 0.000160 train_loss : 0.0328, train_iou: 0.9579 - val_loss 0.1099 - val_iou 0.8779 - val_SE 0.9256 - val_PC 0.9464 - val_F1 0.9330 - val_ACC 0.9844
+epoch [297/300] lr: 0.000112 train_loss : 0.0333, train_iou: 0.9571 - val_loss 0.1103 - val_iou 0.8779 - val_SE 0.9258 - val_PC 0.9462 - val_F1 0.9330 - val_ACC 0.9843
+epoch [298/300] lr: 0.000061 train_loss : 0.0334, train_iou: 0.9572 - val_loss 0.1103 - val_iou 0.8780 - val_SE 0.9258 - val_PC 0.9463 - val_F1 0.9330 - val_ACC 0.9843
+epoch [299/300] lr: 0.000003 train_loss : 0.0323, train_iou: 0.9582 - val_loss 0.1100 - val_iou 0.8779 - val_SE 0.9248 - val_PC 0.9472 - val_F1 0.9330 - val_ACC 0.9843

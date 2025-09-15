@@ -61,6 +61,9 @@ python evaluation.py --base_dir ******/DataSet/bus  --train_file_dir train.txt -
 ```python
 python evaluation.py --base_dir ******/DataSet/KBT2019  --train_file_dir train.txt --val_file_dir val.txt --batch_size 1 --Dataset KBT2019
 ```
+| Methods | BUS IoU | F1 | NUDT-KBT IoU | F1 |
+|---------|-----------|----|-----------|----|
+| **SRS** | **88.29** | **93.44** | **86.17** | **91.48** |
 ## Train
 You can directly train the reconstruction network and segmentation network:
 ```python

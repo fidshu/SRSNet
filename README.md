@@ -69,13 +69,13 @@ python train_Medicine.py
 ```
 ## Citation
 
-@ARTICLE{11174084,
+@article{nian2025srs,
+  title={SRS: Siamese Reconstruction-Segmentation Network based on Dynamic-Parameter Convolution},
   author={Nian, Bingkun and Tang, Fenghe and Ding, Jianrui and Yang, Jie and Zheng, Zhonglong and Zhou, Shaohua Kevin and Liu, Wei},
-  journal={IEEE Transactions on Image Processing}, 
-  title={SRS: Siamese Reconstruction-Segmentation Network based on Dynamic-Parameter Convolution}, 
+  journal={IEEE Transactions on Image Processing},
   year={2025},
-  volume={},
-  number={},
+  publisher={IEEE}
+}
   pages={1-1},
   keywords={weak target segmentation;reconstruction-segmentation;dynamic parameter convolution;siamese network},
   doi={10.1109/TIP.2025.3607624}}
